@@ -14,6 +14,10 @@ nav {
     background-color: #333;
 }
 
+nav a:hover {
+    background-color: #111;
+}
+
 body {
   background-color: #EBF5FB;
   font-family: Open Sans;
