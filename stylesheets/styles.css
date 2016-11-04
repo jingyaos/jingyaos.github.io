@@ -48,10 +48,12 @@ li a:hover {
 }
 
 body {
-    padding: 5px;
-    background-color: #EBF5FB;
     background: url("images/Home2.jpeg");
-    font-family: Open Sans;
+    background-size: cover;
+    font-family: sans-serif;
+/*     padding: 5px;
+    background-color: #EBF5FB;
+    font-family: Open Sans; */
 }
 
 h2 {
