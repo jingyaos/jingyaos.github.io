@@ -1,3 +1,24 @@
+#background {
+    background-image: url("images/Home.jpeg");
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    z-index: -10;
+}
+
+#home {
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -5;
+}
+
 ul {
     width: 100%;
     position: fixed;
@@ -27,9 +48,10 @@ li a:hover {
 }
 
 body {
+    margin: 0px;
     padding: 5px;
-/*     background-color: #EBF5FB; */
-    background: url("images/home.jpeg") no-repeat fixed 100%;
+    background-color: #EBF5FB;
+/*     background: url("images/home.jpeg") no-repeat fixed 100%; */
     font-family: Open Sans;
 }
 
