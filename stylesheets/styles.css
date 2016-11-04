@@ -13,7 +13,7 @@
 #background {
     margin: 0;
     position: absolute;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(180,180,192,0.05);
     top: 0;
     bottom: 0;
     height: 100%;
