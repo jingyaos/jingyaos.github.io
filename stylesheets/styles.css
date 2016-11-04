@@ -1,4 +1,4 @@
-.wrapper {
+/* .wrapper {
     background-image: url("../images/Home2.jpeg");
     background-size: cover;
     background-position: center center;
@@ -7,8 +7,8 @@
     bottom: 0;
     height: 100vh;
     z-index: -10;
-}
-
+} */
+/* 
 #background {
     position: absolute;
     background-color: rgba(180,180,192,0.1);
@@ -17,7 +17,7 @@
     height: 100%;
     width: 100%;
     z-index: -5;
-}
+} */
 
 ul {
     width: 100%;
