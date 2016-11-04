@@ -1,5 +1,6 @@
 .wrapper {
     background-image: url("../images/Home.jpeg");
+    margin: 0;
     background-size: cover;
     background-position: center center;
     position: relative;
