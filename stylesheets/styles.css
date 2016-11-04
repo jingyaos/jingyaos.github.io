@@ -71,5 +71,6 @@ h2 {
 }
 
 img {
-    position: relative;
+    width: 50%;
+    height: auto;
 }
