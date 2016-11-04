@@ -1,7 +1,8 @@
 body {
-  font-family: Open Sans
+  font-family: Open Sans;
+  background-color: #D1F2EB;
 }
 
 h1{
-  color: #1e6bb8;
+  color: gray;
 }
