@@ -28,8 +28,9 @@ li a:hover {
 }
 
 body {
-  background-color: #EBF5FB;
-  font-family: Open Sans;
+    padding: 5px;
+    background-color: #EBF5FB;
+    font-family: Open Sans;
 }
 
 h3 {
