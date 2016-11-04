@@ -46,6 +46,6 @@ h2 {
 }
 
 img {
-    width: 640px;
-    height: 480px;
+    max-width: 100%;
+    height: auto;
 }
