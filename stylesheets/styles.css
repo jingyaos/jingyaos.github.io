@@ -1,5 +1,4 @@
 h1 {
-  padding-top: 50px;
 }
 
 ul {
@@ -31,4 +30,8 @@ li a:hover {
 body {
   background-color: #EBF5FB;
   font-family: Open Sans;
+}
+
+p {
+  padding-top: 50px;
 }
