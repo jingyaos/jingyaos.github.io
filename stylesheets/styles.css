@@ -28,6 +28,7 @@ li a:hover {
 
 body {
     padding: 5px;
+    background-image: url("./images/home.jpeg");
     background-color: #EBF5FB;
     font-family: Open Sans;
 }
