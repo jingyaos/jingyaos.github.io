@@ -6,7 +6,7 @@ h1 {
   background-color: lightblue;
 }
 
-nav {
+.nav {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -14,13 +14,13 @@ nav {
     background-color: #333;
 }
 
-nav a {
+li a {
     display: block;
     padding: 8px;
     background-color: #dddddd;
 }
 
-nav a:hover {
+.nav a:hover {
     background-color: #111;
 }
 
