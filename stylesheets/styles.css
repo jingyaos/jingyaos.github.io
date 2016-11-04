@@ -72,6 +72,9 @@ header {
 
 h2 {
   padding-top: 70px;
+  margin: 0;
+  font-size: 3rem;
+  white-space: nowrap;
 }
 /* 
 #slideshow {
