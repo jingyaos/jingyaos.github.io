@@ -48,7 +48,12 @@ li a:hover {
 }
 
 body {
-    background: url("images/Home2.jpeg");
+    background: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url(images/Home2.jpeg);
     background-size: cover;
     font-family: sans-serif;
 /*     padding: 5px;
