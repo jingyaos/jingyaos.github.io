@@ -21,7 +21,7 @@
 
 ul {
     width: 100%;
-    position: fixed;
+    position: relative;
     list-style-type: none;
     left: 0px;
     top: 0px;
@@ -72,12 +72,9 @@ h2 {
 }
 
 img {
-/*     padding: 5px;
+    padding: 5px;
     width: auto;
     height: auto;
     max-width: 80%; 
-    max-height: 70%; */
-    max-width: 100%;
-    height: auto;
-    width: auto/9;
+    max-height: 70%;
 }
