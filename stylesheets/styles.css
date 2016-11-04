@@ -29,7 +29,7 @@ li a:hover {
 }
 
 body {
-  overflow: auto;
+  padding-top: 60px;
   background-color: #EBF5FB;
   font-family: Open Sans;
 }
