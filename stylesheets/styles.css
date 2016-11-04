@@ -48,7 +48,7 @@ li a:hover {
 }
 
 body {
-    background-image: url("images/Home2.jpeg");
+    background-color: LightGray;
     background-size: cover;
     font-family: sans-serif;
 /*     padding: 5px;
