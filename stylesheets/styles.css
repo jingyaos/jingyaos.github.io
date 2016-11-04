@@ -21,7 +21,7 @@
 
 ul {
     width: 100%;
-    position: fixed;
+    position: relative;
     list-style-type: none;
     left: 0px;
     top: 0px;
