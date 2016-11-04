@@ -3,10 +3,12 @@ h1 {
 }
 
 ul {
+    width: 100%;
+    position: fixed;
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    overflow: hidden;
+    padding:0;
+    overflow: auto;
     background-color: #333;
 }
 
