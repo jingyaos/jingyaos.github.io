@@ -6,7 +6,7 @@ h1 {
   background-color: lightblue;
 }
 
-nav.a {
+nav a {
     display: block;
     padding: 8px;
     background-color: #dddddd;
