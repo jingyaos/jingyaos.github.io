@@ -48,7 +48,6 @@ li a:hover {
 }
 
 body {
-    margin: 0px;
     padding: 5px;
     background-color: #EBF5FB;
 /*     background: url("images/home.jpeg") no-repeat fixed 100%; */
@@ -56,7 +55,6 @@ body {
 }
 
 h2 {
-  position: absolute;
   padding-top: 70px;
 }
 /* 
