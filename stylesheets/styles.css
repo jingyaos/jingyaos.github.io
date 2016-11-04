@@ -71,7 +71,7 @@ h2 {
 }
 
 img {
-    overflow: hidden;
+    position: absolute;
     width: auto;
     height: auto;
     max-width: 80%; 
