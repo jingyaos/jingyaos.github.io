@@ -7,7 +7,14 @@
     
     <link rel="stylesheet" href="stylesheets/styles.css">
     <meta name="viewport" content="width=device-width">
-
+    <script type="text/javascript">
+          function addImage(){
+              var src = document.getElementById("image");
+              var img = document.createElement("img");
+              img.src = "images/home.jpeg";
+              src.appendChild(img);
+          }
+     </script>
   </head>
   <body>
     <div class="wrapper">
@@ -17,6 +24,11 @@
           <li><a href="https://jingyaos.github.io/contact">Contact</a></li>
           <li><a href="https://github.com/jingyaos">GitHub</a></li>
         </ul>
+      <div id="image">
+         <script type="text/javascript">
+             addImage();
+         </script>
+     </div>
       <header>
         <h2> About me </h2>
         <p>My name is Jingyao Shi, a fourth year business information management major from University of California, Irvine.</p>
