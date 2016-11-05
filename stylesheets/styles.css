@@ -85,10 +85,6 @@ img {
     max-height: 70%;
 }
 
-#about {
-    image-orientation: -90deg;
-}
-
 table {
     padding:30px;
 }
