@@ -28,4 +28,4 @@ for(var i=0; i<12; i++){
     myTable+="</tr>";
 }
 myTable+="</table>";
-document.write(myTable);
+document.getElementById('tablePrint').innerHTML = myTable;
