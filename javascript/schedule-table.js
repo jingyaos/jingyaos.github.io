@@ -15,11 +15,17 @@ var schedule = [
 ];
 
 
-for(i=0, i<12, i++){
-  for(j=0, j<5, j++){
-    if(schedule[i][j]==="X"){
-      schedule[i][j].bgColor = red;
-    }else{
-      schedule[i][j].bgColor = white;
-  }
+var myTable= "<table>";
+for(var i=0; i<12; i++){ 
+    myTable+="<tr>";
+    for(var j=0; i<5; i++){
+        if(schedule[i][j]==="X"){
+            myTable+= "<td style='width: 100px; color: red; text-align: center;'></td>";
+        }else{
+            myTable+= "<td style='width: 100px; color: white; text-align: center;'></td>";
+        }
+    }
+    myTable+="</tr>";
 }
+myTable+="</table>";
+document.write(myTable);
