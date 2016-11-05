@@ -14,7 +14,7 @@ ul {
 li {
     float: left;
 }
-@media (min-width:768px){
+@media (min-width:600px){
     li a {
         display: block;
         color: white;
@@ -24,7 +24,7 @@ li {
     }
 }
 
-@media (max-width:768px){
+@media (max-width:600px){
     li a {
         display: block;
         color: white;
@@ -48,7 +48,7 @@ body {
     font-family: Open Sans; */
 }
 
-@media (min-width: 768px){
+@media (min-width: 600px){
     header {
         position: absolute;
         top: 350px;
@@ -60,7 +60,7 @@ body {
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 600px){
     header {
         position: absolute;
         top: 300px;
