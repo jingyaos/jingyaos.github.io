@@ -59,4 +59,6 @@ img {
 
 table {
     left:50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
 }
