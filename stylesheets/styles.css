@@ -77,3 +77,11 @@ img {
     height: auto;
     max-height: 70%;
 }
+
+#mySchedule {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #000000;
+    border-collapse: collapse;
+
+}
