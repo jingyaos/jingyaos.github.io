@@ -27,6 +27,7 @@ li a:hover {
     background-color: #111;
 }
 
+
 body {
     background-color: LightGray;
     background-size: cover;
@@ -36,15 +37,31 @@ body {
     font-family: Open Sans; */
 }
 
-header {
-    position: absolute;
-    top: 350px;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    text-align: center;
-    text-shadow: 1px 1px 2px black;
+@media (min-width: 768px){
+    header {
+        position: absolute;
+        top: 350px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        text-shadow: 1px 1px 2px black;
+    }
 }
+
+@media (max-width: 768px){
+    header {
+        position: absolute;
+        top: 350px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+        text-shadow: 1px 1px 2px black;
+        font-size:80%;
+    }
+}
+
 
 h2 {
   padding-top: 30px;
