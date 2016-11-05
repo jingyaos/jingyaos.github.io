@@ -71,6 +71,10 @@ h2 {
   padding-top: 30px;
 }
 
+.img {
+    width:auto;
+    height:80%;
+}
 img {
     padding: 5px;
     top: 10;
