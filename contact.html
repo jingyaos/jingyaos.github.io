@@ -20,11 +20,32 @@
       <header>
         <h2>Contact Information</h2>
         <img src="http://www.iconsdb.com/icons/preview/black/phone-39-xxl.png" width="50" height="50">
+        <table id="mySchedule">
+          <tr>
+            <td>Monday</td><td>3:30pm-5:00pm</td>
+          </tr>
+          <tr>
+            <td>Tuesday</td><td>9:30am-2:00pm</td>
+          </tr>
+          <tr>
+            <td>Wednesday</td><td>3:30pm-5:00pm</td>
+          </tr>
+          <tr>
+            <td>Thursday</td><td>9:30am-2:00pm</td>
+          </tr>
+          <tr>
+            <td>Friday</td><td>11:00am-1:00pm</td>
+          </tr>
+        </table>
+        <script language="javascript">
+        var table = document.getElementById("mySchedule");
+            for (var i = 0; i < table.rows.length; i+=2) {
+                table.row[i].style.backgroundColor = "#EBF5FB";
+            }
+        }
+    </script>
         <p>Cell phone: (609)613-8867</p>
         <p>Email: jingyaos@uci.edu</p>
-<!--         <script type="text/javascript" src="javascript/schedule-table.js">
-          <div id="mySchedule"> </div>
-        </script> -->
       </header>
       <footer>
         <p></p>
