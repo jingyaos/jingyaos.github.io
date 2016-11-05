@@ -71,13 +71,9 @@ h2 {
   padding-top: 30px;
 }
 
-.img {
-    width:auto;
-    height:80%;
-}
 img {
     padding: 5px;
-    width: 80%;
+    width: 70%;
     height: auto;
     max-height: 70%;
 }
