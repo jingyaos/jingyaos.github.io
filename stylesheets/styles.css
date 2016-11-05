@@ -78,3 +78,6 @@ img {
     max-height: 70%;
 }
 
+table {
+    position: absolute;
+}
