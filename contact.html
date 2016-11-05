@@ -22,28 +22,28 @@
         <img src="http://www.iconsdb.com/icons/preview/black/phone-39-xxl.png" width="50" height="50">
         <table id="mySchedule">
           <tr>
-            <td>Monday</td><td>3:30pm-5:00pm</td>
+            <td id="mon">Monday   </td><td>9:00am-3:30pm</td>
           </tr>
           <tr>
-            <td>Tuesday</td><td>9:30am-2:00pm</td>
+            <td id="tue">Tuesday  </td><td>2:00pm-6:00pm</td>
           </tr>
           <tr>
-            <td>Wednesday</td><td>3:30pm-5:00pm</td>
+            <td id="wed">Wednesday</td><td>9:00am-3:30pm</td>
           </tr>
           <tr>
-            <td>Thursday</td><td>9:30am-2:00pm</td>
+            <td id="thur">Thursday </td><td>2:00pm-6:00pm</td>
           </tr>
           <tr>
-            <td>Friday</td><td>11:00am-1:00pm</td>
+            <td id="fri">Friday   </td><td>1:00pm-6:00pm</td>
           </tr>
         </table>
         <script language="javascript">
-        var table = document.getElementById("mySchedule");
-            for (var i = 0; i < table.rows.length; i+=2) {
-                table.row[i].style.backgroundColor = "#EBF5FB";
-            }
-        }
-    </script>
+         document.getElementById('mon').bgColor = '#EBF5FB';
+          document.getElementById('tue').bgColor = 'white'; 
+          document.getElementById('wed').bgColor = '#EBF5FB'; 
+          document.getElementById('thur').bgColor = 'white'; 
+          document.getElementById('fri').bgColor = '#EBF5FB'; 
+        </script>
         <p>Cell phone: (609)613-8867</p>
         <p>Email: jingyaos@uci.edu</p>
       </header>
