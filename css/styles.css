@@ -99,6 +99,7 @@ body {
 
 #project-summary {
     position: absolute;
+    padding: 5px;
     top: 65%;
     left: 50%;
 /*     transform: translate(-50%, -50%); */
