@@ -68,7 +68,7 @@ body {
         transform: translate(-50%, -50%);
         color: black;
         text-align: center;
-        text-shadow: 1px 1px 2px black;
+        text-shadow: 1px 1px 2px white;
         font-size:85%;
     }
 }
@@ -81,7 +81,7 @@ body {
         transform: translate(-50%, -50%);
         color: white;
         text-align: center;
-        text-shadow: 1px 1px 2px black;
+        text-shadow: 1px 1px 2px white;
     }
 }
 
