@@ -87,14 +87,14 @@ img {
 .screenshot{
     margin-left:2%;
     float:left;
-    height: 40px;
-    width: 40px;
+    height: 100px;
+    width: 100px;
 }
 
 .UI-Container{
     width:100%;
     height:auto;
-    padding: 1%;
+    padding: 2%;
 }
 
 h4{
