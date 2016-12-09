@@ -42,7 +42,7 @@ li a:hover {
 body {
     background-color: LightGray;
     background-size: cover;
-    font-family: Verdana;
+    font-family: Arial;
 /*     padding: 5px;
     background-color: #EBF5FB;
     font-family: Open Sans; */
@@ -101,7 +101,7 @@ body {
     top: 65%;
     left: 50%;
 /*     transform: translate(-50%, -50%); */
-    font-family: Verdana;
+    font-family: Arial;
     color: black;
     text-align: center;
 }
