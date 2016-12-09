@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="author" content="Jingyao Shi">
+    <meta name="viewport" content="width=device-width">
+    
+    <title>Jingyao's Zone</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <script type="text/javascript">
+      function notice() {
+         alert ("Note: Jingyao's GitHub page will be open in a new window! Feel free to come back here and explore :)");
+      }
+    </script>
+  </head>
+  <body>
+<!--     <div id="background">
+      <div id="home"></div>
+    </div> -->
+    <div class="wrapper">
+<!--       <div id="background"></div>
+      </div> -->
+        <ul class="nav">
+          <li><a href="https://jingyaos.github.io">Home</a></li>
+          <li><a href="https://jingyaos.github.io/about">About</a></li>
+          <li><a href="https://jingyaos.github.io/finalproject">Project Summary</a></li>
+          <li><a href="https://jingyaos.github.io/contact">Contact</a></li>
+          <li><a href="https://github.com/jingyaos" target="_blank" onclick = notice()>GitHub</a></li>
+        </ul>
+  </body>
