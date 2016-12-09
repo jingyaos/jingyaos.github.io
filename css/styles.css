@@ -56,7 +56,6 @@ body {
         transform: translate(-50%, -50%);
         color: black;
         text-align: center;
-        text-shadow: 1px 1px 1px white;
     }
 }
 
@@ -68,7 +67,6 @@ body {
         transform: translate(-50%, -50%);
         color: black;
         text-align: center;
-        text-shadow: 1px 1px 1px white;
         font-size:85%;
     }
 }
