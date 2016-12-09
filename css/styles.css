@@ -79,9 +79,9 @@ h2 {
 
 img {
     padding: 5px;
-    width: 70%;
+    width: 60%;
     height: auto;
-    max-height: 70%;
+    max-height: 60%;
 }
 
 .container{
@@ -107,7 +107,7 @@ h4{
 }
 
 hr{
-    border-width:2px;
+    border-width:1.5px;
     margin-top: 6%;
     margin-bottom: 3%;
 }
