@@ -50,18 +50,13 @@ body {
     background-size: cover;
     font-family: Arial;
     line-height: 20px;
-/*     padding: 5px;
-    background-color: #EBF5FB;
-    font-family: Open Sans; */
 }
 
 @media (min-width: 600px){
     header {
         position: absolute;
-/*         top: 350px; */
         left: 25%; 
         right:25%;
-/*         transform: translate(-50%, -50%); */
         color: black;
         text-align: center;
     }
@@ -70,10 +65,8 @@ body {
 @media (max-width: 600px){
     header {
         position: absolute;
-/*         top: 300px; */
         left: 20%; 
         right:20%;
-/*         transform: translate(-50%, -50%); */
         color: black;
         text-align: center;
         font-size:80%;
@@ -85,7 +78,6 @@ body {
         position: absolute;
         left: 25%; 
         right:25%;
-/*         transform: translate(-50%, -50%); */
         color: black;
         text-align: center;
     }
@@ -96,7 +88,6 @@ body {
         position: absolute;
         left: 20%; 
         right:20%;
-/*         transform: translate(-50%, -50%); */
         color: black;
         text-align: center;
         font-size:80%;
@@ -105,11 +96,8 @@ body {
 
 #project-summary {
     position: absolute;
-/*     padding: 5px; */
-/*     top: 65%; */
     left: 25%; 
     right:25%;
-/*     transform: translate(-50%, -50%); */
     font-family: Arial;
     color: black;
     text-align: center;
