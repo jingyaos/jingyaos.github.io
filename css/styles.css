@@ -53,7 +53,7 @@ body {
 }
 
 @media (min-width: 600px){
-    header {
+    header, #about-header, #project-summary {
         position: absolute;
         left: 25%; 
         right:25%;
@@ -63,7 +63,7 @@ body {
 }
 
 @media (max-width: 600px){
-    header {
+    header, #about-header, #project-summary {
         position: absolute;
         left: 20%; 
         right:20%;
@@ -73,7 +73,7 @@ body {
     }
 }
 
-@media (min-width: 600px){
+/* @media (min-width: 600px){
     #about-header {
         position: absolute;
         left: 25%; 
@@ -92,16 +92,16 @@ body {
         text-align: center;
         font-size:80%;
     }
-}
+} */
 
-#project-summary {
+/* #project-summary {
     position: absolute;
     left: 25%; 
     right:25%;
     font-family: Arial;
     color: black;
     text-align: center;
-}
+} */
 
 h2 {
   padding-top: 30px;
