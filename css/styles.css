@@ -89,12 +89,12 @@ img {
     float:left;
     width:100%;
     height:auto;
-    padding: 2%;
+    padding: 1%;
 }
 
 .screenshot{
     position: relative;
-    margin-left:2%;
+    margin-left:1%;
     margin-right: 2%;
     float:left;
     max-height: 100%;
