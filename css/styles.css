@@ -84,15 +84,15 @@ img {
     max-height: 60%;
 }
 
-@media (min-width: 800px){
-    .container{
-        position:relative;
-        float:left;
-        width:100%;
-        height:auto;
-        padding: 2.5%;
-    }
+.container{
+    position:relative;
+    float:left;
+    width:100%;
+    height:auto;
+    padding: 2.5%;
+}
 
+@media (min-width: 800px){
     .screenshot{
         position: relative;
         margin-right: 2%;
@@ -100,6 +100,13 @@ img {
         max-height: 100%;
         max-width: 30%;
         border-radius: 25px;
+    }
+    
+    .content{
+        font-size:85%;
+        text-align: justify;
+        padding-right:3%;
+        padding-left:3%;
     }
 }
 
@@ -129,13 +136,6 @@ hr{
     border-width:1.5px;
     margin-top: 6%;
     margin-bottom: 3%;
-}
-
-.content{
-    font-size:85%;
-    text-align: justify;
-    padding-right:3%;
-    padding-left:3%;
 }
 
 table {
