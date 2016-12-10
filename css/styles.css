@@ -52,7 +52,7 @@ body {
     line-height: 20px;
 }
 
-@media (min-width: 600px){
+@media (min-width: 700px){
     header, #about-header, #project-summary {
         position: absolute;
         left: 20%; 
@@ -62,11 +62,11 @@ body {
     }
 }
 
-@media (max-width: 600px){
+@media (max-width: 700px){
     header, #about-header, #project-summary {
         position: absolute;
-        left: 15%; 
-        right:15%;
+        left: 10%; 
+        right:10%;
         color: black;
         text-align: center;
         font-size:80%;
@@ -84,21 +84,23 @@ img {
     max-height: 60%;
 }
 
-.container{
-    position:relative;
-    float:left;
-    width:100%;
-    height:auto;
-    padding: 2.5%;
-}
+@media (min-width: 800px){
+    .container{
+        position:relative;
+        float:left;
+        width:100%;
+        height:auto;
+        padding: 2.5%;
+    }
 
-.screenshot{
-    position: relative;
-    margin-right: 2%;
-    float:left;
-    max-height: 100%;
-    max-width: 30%;
-    border-radius: 25px;
+    .screenshot{
+        position: relative;
+        margin-right: 2%;
+        float:left;
+        max-height: 100%;
+        max-width: 30%;
+        border-radius: 25px;
+    }
 }
 
 @media (max-width: 800px){
