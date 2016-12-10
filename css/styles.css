@@ -97,8 +97,26 @@ img {
     margin-right: 2%;
     float:left;
     max-height: 100%;
-    max-width: 20%;
+    max-width: 30%;
     border-radius: 25px;
+}
+
+@media (max-width: 800px){
+    .screenshot{
+        position: relative;
+        margin-right: 2%;
+        float:left;
+        max-height: 100%;
+        max-width: 90%;
+        border-radius: 25px;
+    }
+    
+    .content{
+    font-size:85%;
+    text-align: justify;
+    padding-right:3%;
+    padding-left:1%;
+    }
 }
 
 h4{
