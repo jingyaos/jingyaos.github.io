@@ -111,6 +111,10 @@ hr{
     margin-bottom: 3%;
 }
 
+.content{
+    font-size:85%;
+}
+
 table {
     padding:5px;
 }
