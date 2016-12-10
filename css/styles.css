@@ -89,7 +89,7 @@ img {
     float:left;
     width:100%;
     height:auto;
-    padding: 3%;
+    padding: 2.5%;
 }
 
 .screenshot{
@@ -113,7 +113,7 @@ hr{
 
 .content{
     font-size:85%;
-    padding-right:1%;
+    padding-right:3%;
 }
 
 table {
